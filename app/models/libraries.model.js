@@ -7,8 +7,7 @@ const LibrariesItemSchema = new mongoose.Schema({
         default: mongoose.Types.ObjectId
     },
     userId: {
-        type: Number,
-        required: true
+        type: String,
     },
     originalname: {
         type: String,
